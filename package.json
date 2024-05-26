@@ -1,0 +1,48 @@
+{
+  "name": "@scintilla-network/client",
+  "version": "1.0.0-beta.5",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "litest",
+    "test:unit:wallet": "litest run src/primitives/Wallet/Wallet.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scintilla-network/client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scintilla-network/client/issues"
+  },
+  "homepage": "https://github.com/scintilla-network/client#readme",
+  "keywords": [
+    "scintilla",
+    "client",
+    "sdk",
+    "wallet",
+    "keys",
+    "mnemonic",
+    "assetmanager",
+    "governancemanager",
+    "identitymanager",
+    "networkmanager",
+    "drivemanager",
+    "identity"
+  ],
+  "author": "Scintilla Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@scintilla-network/keys": "1.0.0-beta.24",
+    "@scintilla-network/mnemonic": "2.0.0",
+    "@scintilla-network/sdk": "1.0.0-beta.50",
+    "@scintilla-network/wallet": "1.0.0-beta.3",
+    "hermodlog": "1.5.2"
+  },
+  "devDependencies": {
+    "@scintilla-network/litest": "1.3.1"
+  }
+}
